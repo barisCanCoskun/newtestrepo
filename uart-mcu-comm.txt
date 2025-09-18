@@ -1,0 +1,4 @@
+sudo rm /var/lock/LCK..ttyACM1
+
+sudo minicom -D /dev/ttyACM1 -b 115200
+
